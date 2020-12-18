@@ -1,0 +1,75 @@
+
+body{margin:0;
+text-align: center;
+font-family: 'Merriweather',serif;background-color: #ffdd93;}/*by default,our font is in serif.
+                         Have a look at the CSS Font family(css web safe fonts,
+                         fonts which are rendered easily on most of the computers)to hv a
+                          look at diff types of fonts*/
+  /*make use of google fonts to embedd the style u want*/
+/*will center everythung whuch doesnt has a width set,
+                     if width:10% is set,we will have to give margin:0 auto 0 auto;to center anything desired*/
+                     hr{margin:auto;border-style: none;border-top: dotted;color:gray;border-width:20px;width:25%;}
+
+ .profile{border-radius: 50%;
+          width:25%;}
+.makeup{border-radius: 50%;
+        width:25%;float: left;margin-right: 30px;}
+.skills{ border-radius:50%;width:35%;float:right;margin-left: 30px;}
+.name{font-size:50px;}
+  .program{font-weight: normal;line-height:normal;}
+  h1{margin: 0;
+  font-family: 'Sacramento',cursive;}
+p{margin:0;font-size: 20px;} /* 16px=100%=1em , 90px=5.625em*/ /* font-size inherits the previously defined values.
+                           If we specify the font size in body to be 2 em and in hi to be 5 em,then the total font size
+                           for h1 will be 2+5=7em ,bcoz for h1 ,parent is body tag.same happens in case of using font size with %.
+                           But if we specify font size in px,then it remains static ,doesnt depend on font size of parent.
+                           If we specify the font size to be 5 rem,then r means root,and this declaration is static,doesnt depend on body.*/
+h2{font-family:'Montserrat',sans-serif; color:#66BFBF;}
+h3{font-family:'Montserrat',sans-serif; color:#11999E;}
+.skillsstyle{color: red;}
+
+span{text-decoration:underline;}
+.top{padding-top:100px;position: relative;background-color:powderblue;}
+.container{height:200px;
+width:200px;}
+.middle{background-color: #ffb0b0;} .bottomlast{ margin:0 auto 0 auto; width:70%;background-color: #ffdd93;text-align:left;line-height: 2;}
+.bottom{ margin:0 auto 0 auto; width:70%;background-color: #ffdd93;text-align:left;line-height:2;}
+
+.mountain{width:30%;height:30%;}
+.bottom-cloud{position: absolute;left:250px;
+bottom:200px;}
+
+.top-cloud{position: absolute;
+right:250px;
+top:60px;}
+.contact-me{ margin:40px auto 60px;}
+.btn{
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #f5e7f5;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover{
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.footer{  background-color:  #ffb0b0;padding: 20px 0;color:gray;}
+a{color:#11999E;text-decoration: none;font-family: 'Montserrat',sans-serif;margin-top:50px;}
+a:hover{color:#EAF6F6;}
